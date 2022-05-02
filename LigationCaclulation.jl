@@ -5,7 +5,7 @@ using DataFrames
 """
     LigationCalc(VecConc, InsConc, VecMass, VecLength, InsLength, Ratio, TotalVolume)
     
-    Returns a DataFrame of the reaction volumes
+    Returns a DataFrame of the reaction volumes in μl
 """
 function LigationCalc(VecConc, InsConc, VecLength, InsLength, Ratio = 5, TotalVolume = 10)
     
