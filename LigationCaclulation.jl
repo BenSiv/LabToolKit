@@ -1,3 +1,8 @@
+cd(raw"C:\Users\Ben\Documents\GitHub\LabToolKit")
+
+using Pkg
+Pkg.activate(".")
+
 # Ligation caclulation
 
 using DataFrames
@@ -24,3 +29,7 @@ function LigationCalc(VecConc, InsConc, VecLength, InsLength, Ratio = 5, TotalVo
 
     return ReactionPrep
 end
+
+
+# Cucumber Cas9 SP1 + eYGFPuv
+LigationCalc(12, 29, 14916, 2051, 5, 10)
